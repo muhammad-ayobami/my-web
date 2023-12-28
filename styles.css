@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+.top-container {
+    position: relative;
+    background-color: aquamarine;
+    padding-top: 100px;
+}
+.top-cloud{
+    position:absolute;
+    top: 0px;
+    right: 5%;
+    text-align: center;
+    display: block;
+}
+  .bottom-cloud{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: block;
+  }
+  div{
+    display: block;
+  }
+  .middle.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+  }
+  h2{
+    display: block;
+    text-align: center;
+    margin-block-end: 0.83em;
+    margin-block-start: 0.83em;
+  }
+  .parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    text-align: left;
+    row-gap: 2em;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  .logo{
+    height: 200px;
+    text-align: center;
+  }
+    
+  }
+}
